@@ -80,7 +80,7 @@ export default function Home() {
                 
                 <div className="w-full">
                     <Image 
-                        src="/images/slides-3/slide1.svg" 
+                        src="/images/slides-3/slide-1.png" 
                         alt="Surfing on World Best, Untouched Beaches" 
                         width={1920} 
                         height={1080} 
