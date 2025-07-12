@@ -14,6 +14,7 @@ import ReviewComponent from "@/components/ReviewComponent"; // Import the Review
 //import {motion, AnimatePresence} from 'framer-motion'; // Import Framer Motion for animations]
 import { slides, slides2 } from "@/data/HomePageData"; // Import the slides data
 import TripPlanner from "@/components/TripPlanner"; // Import the TripPlanner component
+import DestinationHighlight from "@/components/DestinationHighlight";
 
 // A simple, reusable banner component
 const Banner = ({ children, className }: { children: React.ReactNode, className?: string }) => (
@@ -87,9 +88,11 @@ export default function Home() {
                         className="w-full h-auto" 
                     />
                 </div>
-                
+                <br />
+                <br />
                 <ReviewComponent />
                 <PricesBanner />
+                <DestinationHighlight />
                 <Footer />
             </motion.main>
             )}
